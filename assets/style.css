@@ -81,14 +81,14 @@ main{
 }
 
 
-.containerPortfolio{
-    margin-bottom: 10vh;
-    width:100%;
-    min-height:80vh;
-    padding:10vh;
-  
+.porfolioContainer{
+    background-color: #fff;
+    min-height: 80vh;
 }
 
+.projectContent{
+    height: 100%;
+}
 
 
 
