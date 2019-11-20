@@ -1,3 +1,13 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.col-3,.col-9{
+    padding:0;
+    border: 0;
+}
+
 .navbarSupportedContent{
     display:flex;
     justify-self: center;
@@ -9,7 +19,7 @@
 
 
 .navbar-brand{
-    height: 10vh;
+    /* height: 10vh; */
     font-size: 30px;
     font-family: 'Courgette', cursive;
     display: flex;
@@ -24,11 +34,28 @@ body nav{
     background-color: #706fd3;
 }
 
-main{
-    height: 80vh;
+.projectLink{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    background-color:rgba(201, 183, 235, 0.767);
+    color: rgb(77, 56, 116);
+    border:0;
+
 }
 
+.projects{
+    width: 100%;
 
+}
+
+.card{
+    height:50vh;
+    /* margin-top: 10vh;
+    margin-bottom: 10vh; */
+
+}
 
 .contactContainer{
     width: 100%;
@@ -53,41 +80,38 @@ textarea{
 
 }
 
-/* .card{
-    margin-top: 60px;
 
-} */
 main{
-    height:80vh;
+    height: 80vh;
     width: 100%;
     padding:0;
 } 
-.card{
-    border: 2px solid aliceblue;
-}
+
 
 
 .container img{
     padding: 10px;
 }
-.container{
-    
-    padding-top: 80px;
-    width:100%;
-    min-height:80vh;
-    padding-bottom: 12vh;
-   
+.container{ 
 
+    width:100%;
+}
+
+
+.row{
+    min-height: 80vh;
 }
 
 
 .porfolioContainer{
-    background-color: #fff;
+    background-color:#40407a;
     min-height: 80vh;
+    width: 100%;
 }
 
 .projectContent{
     height: 100%;
+    border: 0;
 }
 
 
@@ -97,16 +121,18 @@ body{
     background-color:#40407a;
 }
 
-footer{
-    background-color: #706fd3;
-    width: 100%;
-    height: 10vh; 
-    position: fixed;
-}
+
+
 footer p{
     color:white;
     text-align: center;
     padding-top: 20px;
+}
+
+footer{
+    height: 10vh;
+    text-align: center;
+    background-color: #706fd3;
 }
 
 @media screen and (max-width:1000px){
@@ -120,10 +146,3 @@ footer p{
         padding:30px;
     }
 }
-    
-    /* }
-    footer{
-        margin-top: 90vh;
-        position: fixed;
-        height:10vh;
-        background-color: aliceblue; */
